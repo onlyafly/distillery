@@ -2,13 +2,13 @@ Distillery
 ==========
 
 __Current Version__:
-v0.1.0
+v0.2.0
 
 __License__:
 MIT (see included LICENSE file)
 
 __Author__:
-Kevin P. Albrecht <http://www.kevinalbrecht.com>
+Kevin P. Albrecht - <http://www.kevinalbrecht.com>
         
 __Web Site__:
 <http://www.github.com/onlyafly/distillery>
@@ -25,15 +25,15 @@ Dependencies
 
 ### Included
 
-* showdown.js <https://github.com/fivesixty/mdext>
+* showdown.js - <https://github.com/fivesixty/mdext>
 
 ### Required
 
-* Node <https://github.com/joyent/node>
+* Node - <https://github.com/joyent/node>
 
 ### To run unit tests
 
-* nodeunit <https://github.com/caolan/nodeunit>
+* nodeunit - <https://github.com/caolan/nodeunit>
 
 Running Distillery
 ------------------
@@ -41,6 +41,13 @@ Running Distillery
 From the root folder, run this:
 
     > node distillery.js
+    
+Running the Example
+-------------------
+
+From the root/examples folder, run this to regenerate output.html:
+
+    > . example.sh
 
 Running the Unit Tests
 ----------------------
