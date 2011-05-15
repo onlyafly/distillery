@@ -1,5 +1,8 @@
-Distillery.js
-=============
+Distillery
+==========
+
+__Current Version__:
+v0.1.0
 
 __License__:
 MIT (see included LICENSE file)
@@ -20,14 +23,17 @@ from a JavaScript file, then generates an HTML file from the results.
 Dependencies
 ------------
 
+### Included
+
+* showdown.js <https://github.com/fivesixty/mdext>
+
 ### Required
 
-* node.js [https://github.com/joyent/node]
-* showdown.js (included)
+* Node <https://github.com/joyent/node>
 
 ### To run unit tests
 
-* nodeunit [https://github.com/caolan/nodeunit]
+* nodeunit <https://github.com/caolan/nodeunit>
 
 Running Distillery
 ------------------

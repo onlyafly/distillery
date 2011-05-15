@@ -1,3 +1,8 @@
+/*
+ * Distillery
+ * Copyright (c) 2011 Kevin P. Albrecht
+ */
+
 var
   fs = require('fs'),
   Showdown = require('./lib/showdown').Showdown,
