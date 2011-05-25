@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test Documentation</title>
+</head>
+<body>
+<h1>Distillery</h1>
+
+<p><strong>Current Version</strong>:
+v0.3.0dev</p>
+
+<p><strong>License</strong>:
+MIT (see included LICENSE file)</p>
+
+<p><strong>Author</strong>:
+Kevin P. Albrecht - <a href="http://www.kevinalbrecht.com">http://www.kevinalbrecht.com</a></p>
+
+<p><strong>Web Site</strong>:
+<a href="http://www.github.com/onlyafly/distillery">http://www.github.com/onlyafly/distillery</a></p>
+
+<h2>What is Distillery?</h2>
+
+<p>Distillery is a Node.js program which extracts multiline comments that start
+with /*** (a forward slash and three asterisks) of Markdown-formatted text
+from a JavaScript file, then generates an HTML file from the results.</p>
+
+<h2>Dependencies</h2>
+
+<h3>Included</h3>
+
+<ul>
+<li>showdown.js - <a href="https://github.com/fivesixty/mdext">https://github.com/fivesixty/mdext</a></li>
+</ul>
+
+<h3>Required</h3>
+
+<ul>
+<li>Node - <a href="https://github.com/joyent/node">https://github.com/joyent/node</a></li>
+</ul>
+
+<h3>To run unit tests</h3>
+
+<ul>
+<li>nodeunit - <a href="https://github.com/caolan/nodeunit">https://github.com/caolan/nodeunit</a></li>
+</ul>
+
+<h2>Running Distillery</h2>
+
+<p>From the root folder, run this:</p>
+
+<pre><code>&gt; node distillery.js
+</code></pre>
+
+<h2>Running the Example</h2>
+
+<p>From the root/examples folder, run this to regenerate output.html:</p>
+
+<pre><code>&gt; . example.sh
+</code></pre>
+
+<h2>Running the Unit Tests</h2>
+
+<p>From the root folder, run this:</p>
+
+<pre><code>&gt; nodeunit tests
+</code></pre></body>
+</html>

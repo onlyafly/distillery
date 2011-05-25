@@ -1,7 +1,13 @@
 Distillery Changelog
 ====================
 
-v0.2.0 (2001-05-16)
+v0.3.0 (2011-05-25)
+-------------------
+
+* Added -M command line argument to allow raw Markdown files to be used as
+  input to create HTML.
+
+v0.2.0 (2011-05-16)
 -------------------
 
 * Added ability to include multiple input files.

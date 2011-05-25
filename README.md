@@ -2,7 +2,7 @@ Distillery
 ==========
 
 __Current Version__:
-v0.2.0
+v0.3.0 (2011-05-25)
 
 __License__:
 MIT (see included LICENSE file)
@@ -42,12 +42,17 @@ From the root folder, run this:
 
     > node distillery.js
     
-Running the Example
--------------------
+Running the Examples
+--------------------
 
-From the root/examples folder, run this to regenerate output.html:
+From the root/examples folder, run this to regenerate output1.html from
+input.js:
 
-    > . example.sh
+    > . example1.sh
+    
+You can also regenerate output2.html from the README.js file:
+
+    > . example2.sh
 
 Running the Unit Tests
 ----------------------
